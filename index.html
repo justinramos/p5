@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap</title>
+
+	<!--Required metatag and stylesheet-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!--Custom styles here-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default affix-top">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+				<span class="glyphicon glyphicon-menu-hamburger"></span>
+			</button>
+			<a class="navbar-brand" href="#">Logo</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!--Your HTML here-->
+	<div class="fluid-container">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+			<!-- wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<!--slide 1-->
+				<div class="item active">
+					<img src="img/HeaderImage.jpg">
+					<div class="carousel-caption">
+						<p style="font-size: 30px; color: orange">DBD</p>
+					</div>
+				</div>
+				<!--slide 2-->
+				<div class="item">
+					<img src="img/Mortal-Kombat-XL-750x430.jpg" style="width: 100%">
+					<div class="carousel-caption">
+						<p style="font-size: 30px; color: orange">Scorpion</p>
+					</div>
+				</div>
+				<!--slide 3-->
+				<div class="item">
+					<img src="img/tmp875916846052671488.jpg" style="width: 100%">
+					<div class="carousel-caption">
+						<p style="font-size: 30px; color: darkorange">Naruto</p>
+					</div>
+				</div>
+			</div>
+			<!-- controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 cola">
+				<img src="img/fortnite-season-4-battle-royale-teknique-320x569.jpg" style="height: 400px">
+			</div>
+			<div class="col-md-3 colb">
+				<p style="font-size: 24px">Fortnite Teknique Skin</p>
+			</div>
+			<div class="col-md-6 colc">
+				<p style="font-size: 18px">Fortnite Battle Royale is a cool Multiplayer stratigic game.</p>
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+				Contact
+			</button>
+
+				<!--modal container -->
+				<div class="modal fade" id="myModal" role="dialog">
+					<div class="modal-dialog">
+						<!-- modal content-->
+						<div class="modal-content">
+							<!-- modal header-->
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Contact</h4>
+							</div>
+							<!-- modal body-->
+							<div class="modal-body">
+								<form>
+
+									<label>First name<br>
+								<input type="text" name="fullname" required>
+							</label>
+									<br>
+									<label>Email<br>
+								<input type=email name="eml" required>
+							</label>
+									<br>
+									<input type="submit" value="Send">
+
+								</form>
+							</div>
+							<!-- modal footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+
+	<br>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 cola">
+				<img src="img/8283302980da5803-600x400.jpg" style="height: 200px">
+			</div>
+			<div class="col-md-3 colb">
+				<p style="font-size: 24px">COD WWII</p>
+			</div>
+			<div class="col-md-6 colc">
+				<p style="font-size: 18px">COD WWII is a Shooter game that takes you through the events of WWII.</p>
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+				Contact
+			</button>
+
+				<!--modal container -->
+				<div class="modal fade" id="myModal" role="dialog">
+					<div class="modal-dialog">
+						<!-- modal content-->
+						<div class="modal-content">
+							<!-- modal header-->
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Contact</h4>
+							</div>
+							<!-- modal body-->
+							<div class="modal-body">
+								<form>
+
+									<label>First name<br>
+								<input type="text" name="fullname" required>
+							</label>
+									<br>
+									<label>Email<br>
+								<input type=email name="eml" required>
+							</label>
+									<br>
+									<input type="submit" value="Send">
+
+								</form>
+							</div>
+							<!-- modal footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<h2>Different types of video games</h2>
+		<br>
+		<!--then a row-->
+		<div class="row">
+			<!--then columns-->
+			<div class="col-xs-12">
+				<p style="font-size: 23px">Shooter, RPG, Battle Royale, Fighting, Survival Horror, Racing, Boardgames. </p>
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+				Contact
+			</button>
+
+				<!--modal container -->
+				<div class="modal fade" id="myModal" role="dialog">
+					<div class="modal-dialog">
+						<!-- modal content-->
+						<div class="modal-content">
+							<!-- modal header-->
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Contact</h4>
+							</div>
+							<!-- modal body-->
+							<div class="modal-body">
+								<form>
+
+									<label>First name<br>
+								<input type="text" name="fullname" required>
+							</label>
+									<br>
+									<label>Email<br>
+								<input type=email name="eml" required>
+							</label>
+									<br>
+									<input type="submit" value="Send">
+
+								</form>
+							</div>
+							<!-- modal footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Required scripts-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!--Custom script here-->
+	<script></script>
+</body>
+
+</html>
